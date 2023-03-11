@@ -1,0 +1,57 @@
+form{
+    width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #8C635F;
+    border-radius: 15px;
+}
+
+form h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif ;
+    font-weight: bold;
+} 
+
+form fieldset{
+    border: 0;
+
+}
+
+form fieldset label{
+    display: block;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif ;
+    font-weight: lighter;
+}
+
+form fieldset input, textarea{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+form h2{
+   margin-top: 0px;
+   margin-left: 122px;
+    font-style: normal;
+    font-size: 12px;
+}
+
+iframe{
+    margin-left: 0%;
+    margin-bottom: 2%;
+    margin-top: none;
+}
+
+@media only screen and (max-width: 500px){
+    form{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    form h2{
+        margin-left: 49px;
+    }
+}

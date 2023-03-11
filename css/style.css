@@ -1,0 +1,111 @@
+body{
+    margin: auto;
+    background-image: url(/assets/WhatsApp\ Image\ 2023-03-07\ at\ 21.07.53\ \(4\).jpeg);
+    
+}
+
+header{
+    background-color: #8C635F;
+    display: flex;
+}
+
+header img{
+    float: none;
+    width: 250px;
+    height: 250px;
+    
+}
+
+header h1{
+    color: #ffffff;
+    margin: 5%;
+    margin-left: -15px;
+    font-size: 80px;
+}
+
+nav{
+    background-color: #C98E89;
+    font-family: 'Inter', sans-serif ;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul{
+    padding: 15px;
+    margin: auto
+}
+
+nav li{
+    display: inline;
+    margin: 140px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+img{
+    width: 300px;
+}
+
+.container {
+    background-color: #FCB2AC;
+    overflow: auto;
+    margin: 5%;
+    border-radius: 15px;
+  }
+
+  img {
+    float: left;
+    margin-right: 50px; 
+  }
+
+h2, p{
+    font-family: 'Inter', sans-serif ;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #8C635F;
+    padding: 2px;
+}
+
+.button{
+    border: 0;
+    color: black;
+    padding: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+    color: #8C635F;
+    background-color: #C98E89;
+
+}
+
+#submit-contato{
+    float: right;
+    margin-right: 2%;
+}
+
+@media only screen and (max-width: 1055px){
+    nav ul li{
+        margin:15px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    header h1{
+        margin:-3%;
+        margin-left: -58%;
+    }
+}
+
+
+
+

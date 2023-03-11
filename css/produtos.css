@@ -1,0 +1,32 @@
+main{
+    text-align: center;
+}
+
+.produto{
+    background-color: #8C635F;
+    display: inline-block;
+    border: 3px solid #8C635F;
+    margin:7%;
+    border-radius: 15px;
+}
+
+div img{
+    border-radius: 15px;
+   margin-right: 0;
+}
+
+h4{
+    margin-bottom: auto;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif ;
+    font-size: 16px;
+
+}
+
+
+p{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif ;
+    font-size: 12px
+    
+}
