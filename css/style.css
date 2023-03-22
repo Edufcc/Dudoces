@@ -93,6 +93,10 @@ footer{
     margin-right: 2%;
 }
 
+.invalid {
+    border: 2px solid red;
+}
+
 @media only screen and (max-width: 1055px){
     nav ul li{
         margin:15px;
