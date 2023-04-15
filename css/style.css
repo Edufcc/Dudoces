@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    background-image: url(../assets/WhatsApp\ Image\ 2023-03-07\ at\ 21.07.53\ \(4\).jpeg);
+    background-color: #C98E89;
     
 }
 
@@ -24,7 +24,7 @@ header h1{
 }
 
 nav{
-    background-color: #C98E89;
+    background-color: #FCB2AC;
     font-family: 'Inter', sans-serif ;
     font-weight: bold;
     text-align: center;
